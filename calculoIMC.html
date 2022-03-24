@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculoIMC.js" ></script>
+    <title>Calcular IMC</title>
+</head>
+<body class="imc">
+    <header>
+        <div class="imagem">
+        <img src="banner.jpg" class="banner">
+        </div>
+    </header>
+
+    <h1>O que é IMC?</h1>
+    <p class="texto-imc">
+        IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.<br>
+        
+        O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado.<br> Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
+
+    <table class="classificacao">
+        <thead>
+            <tr>
+                <th>IMC</th>
+                <th>CLASSIFICAÇÃO</th>
+                <th>OBESIDADE (GRAU)</th>
+                
+            </tr>
+        </thead>
+
+        <tbody id="tabela-info-imc">
+            <tr>
+                <td class="info-imc">MENOR QUE 18,5</td>
+                <td class="info-classificacao">MAGREZA</td>
+                <td class="info-grau-obesidade">0</td>
+            </tr>
+
+
+            <tr>
+                <td class="info-imc">ENTRE 18,5 E 24,9</td>
+                <td class="info-classificacao">NORMAL</td>
+                <td class="info-grau-obesidade">0</td>
+            </tr>
+
+            <tr>
+                <td class="info-imc">ENTRE 25,0 E 29,9</td>
+                <td class="info-classificacao">SOBREPESO</td>
+                <td class="info-grau-obesidade">1</td>
+            </tr>
+
+            <tr>
+                <td class="info-imc">ENTRE 30,0 E 39,9</td>
+                <td class="info-classificacao">OBESIDADE</td>
+                <td class="info-grau-obesidade">2</td>
+            </tr>
+
+            <tr>
+                <td class="info-imc">MAIOR QUE 40,0</td>
+                <td class="info-classificacao">OBESIDADE GRAVE</td>
+                <td class="info-grau-obesidade">3</td>
+            </tr>
+
+          
+        </tbody>
+    </table>
+
+
+    <form class="calculadora">
+        <p>Calcule o seu IMC:</p>
+               
+                <label for="peso">Peso:</label>
+                <input id="peso" type="number" placeholder="digite o seu peso">
+                <label for="altura">Altura (em cm):</label>
+                <input id="altura" type="number" placeholder="digite a sua altura">
+                
+                <button onclick="calculadoraIMC()" type="button" class="calcularIMC">Calcular</button>
+                <textarea id="resultado"></textarea>
+         
+    </form>
+
+    
+    
+</body>
+</html>

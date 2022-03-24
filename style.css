@@ -1,0 +1,230 @@
+.imagem{
+    background-color: #CFECEF;
+}
+header{
+    display: inline;
+    
+}
+
+.menu{
+    background-image: url(fundo.png);
+}
+.banner{
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+    align-content: initial;
+    border-radius: 50%;
+}
+
+body h1{
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.texto-inicial{
+    font-family: 'Times New Roman';
+    text-align: center;
+    display: block;
+    padding: 20px 10px;
+    font-size: 25px;
+    margin-bottom: 150px;
+    
+}
+
+ /*css sobre nós:*/
+.visao{
+    text-align: center;
+    align-content: center;
+    padding: 20px 30px;
+    
+    
+}
+
+.valores{
+    text-align: center;
+    align-content: center;
+    padding: 20px 30px;
+   
+}
+
+.missao{
+    text-align: center;
+    align-content: center;
+    padding: 20px 30px;
+    
+}
+.sobrenos p{
+    font-size: 25px;
+}
+
+.bannerc{
+    width: 200px;
+    height: 400px;
+    float: left;
+    border: #000 1px solid;
+    border-radius: 1em;
+    padding: 10px 10px;
+    margin: 10px 10px
+}
+
+/*css menu: */
+li{
+    
+    width: 940px;
+    margin: auto;
+    padding: 20px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+.item-menu li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    
+}
+
+
+.itens li {
+    
+    border: #000 solid;
+    border-radius: 1em;
+	display: inline;
+	margin: 0 0 0 150px;
+    margin-left: 120px;
+    
+}
+
+.itens a {
+    text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+    
+}
+
+
+
+/*css calculo imc:*/
+.imc h1{
+    text-align: center;
+    padding: 0px 10px;
+}
+.texto-imc{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 10px 20px;
+}
+
+.classificacao{
+    margin: auto;
+    width: 600px;
+}
+td, th {
+    
+    padding: 10px 10px;
+	/*padding: .7em;*/
+	margin: 0;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+tr:nth-child(2n+2){
+    background-color: #ccc;
+}
+
+label{
+    display: block;
+}
+
+.calculadora{
+    margin: auto;
+    width: 600px;
+    /*padding: 10px 10px;*/
+    font-size: 15px;
+}
+
+.calculadora p{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.areaInput{
+    margin: auto;
+    width: 800px;
+    display: block;
+    width: 40%;
+}
+
+#resultado{
+    margin: auto;
+    width: 400px;
+    padding: 10px 10px;
+    display: block;
+    border-radius: 1em;
+}
+
+.calcularIMC{
+    align-content: center;
+    margin: 10px 10px;
+    height: 2em;
+    border-radius: 1em;
+    background-color: black;
+    color: white;
+    display: block;
+
+}
+
+
+/*css cadastrar cliente:*/
+
+.espaco{
+    padding: 30px 30px;
+}
+input{
+    display: block;
+    width: 50%;
+}
+
+.form{
+    
+    border: #000 solid 1px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    align-items: center;
+    margin: auto;
+    width: 500px;
+    
+    margin: 10 0 20 70px;
+}
+
+.invalido{
+
+    border: red solid 1px;
+}
+
+/*css local: */
+.localidade{
+    margin: auto;
+    width: 600px;
+    display: block;
+    padding: 10px 10px;
+}
+
+
+
